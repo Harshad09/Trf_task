@@ -69,7 +69,7 @@ void loop()
         
         distance = duration * 0.0340 / 2;
         HTTPClient http;
-        String url = "localhost/mydatabase/ultradisplay.php?distance="+12;
+        String url = "localhost/mydatabase/ultradisplay.php?distance="+distance;
         Serial.println(url);     
             http.begin(url);
            
